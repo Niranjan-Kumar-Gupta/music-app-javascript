@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <canvas id="canvas1"> </canvas>
+        <audio id="audio1"></audio>
+        <div id="controlMenu">
+            <div id="title">
+                <h2 id="songName">play song</h2>
+                <p id="singer">artits</p>
+            </div>
+
+
+            <div id="btnSlide">
+                <input type="range" id="slide" name="points" min="0" value="0" step="0.0001">
+                <div id="duration">
+                    <h6 id="currentTime">0.0</h6>
+                    <h6 id="totalTime">0.0</h6>
+                </div>
+                <div id="btn">
+
+                    <button>
+                        <img id="back" src="image/left1.png" alt="*">
+                    </button>
+                    <button onclick="aud_play_pause()">
+                        <img id="playPause" src="image/play1.png" alt="*">
+                    </button>
+                    <button>
+                        <img id="next" src="image/right1.png" alt="*">
+                    </button>
+                </div>
+
+            </div>
+        </div>
+        <div id="bottomBtn">
+            <div id="btnname">
+                <button id="myMusic"> <img id="back" src="image/icons8-headphones-32.png" alt="*"></button>
+                <p>my music</p>
+            </div>
+            <div id="btnname">
+                <button id="onlineBtn"> <img id="back" src="image/icons8-music-folder-32.png" alt="*"></button>
+                <p>online</p>
+            </div>
+            <div id="btnname">
+                <button> <img id="back" src="image/icons8-heart-32.png" alt="*"></button>
+                <p>favroite</p>
+            </div>
+            <div id="btnname">
+                <button> <img id="back" src="image/icons8-search-24.png" alt="*"></button>
+                <p>search</p>
+            </div>
+
+        </div>
+        <div id="my_music_name">
+            <h2>all songs</h2>
+        </div>
+
+        <div id="online_music">
+
+            <div id="online_music_container">
+                <div class="title_name_more_btn">
+                    <h3>Recently played</h3>
+                    <button class="more_btn" id="0more__btn" >more></button>
+                </div>
+                <div id="all_music_recent"></div>
+                <div class="title_name_more_btn">
+                    <h3>Top 100 Hindi</h3>
+                    <button class="more_btn" id="1more__btn">more></button>
+                </div>
+                <div id="all_music_top_hindi"></div>
+                <div class="title_name_more_btn">
+                    <h3>Top 100 Bhojpuri</h3>
+                    <button class="more_btn" id="2more__btn">more></button>
+                </div>
+                <div id="all_music_top_bhojpuri"></div>
+                <div class="title_name_more_btn">
+                    <h3>Top 100 English</h3>
+                    <button class="more_btn" id="3more__btn">more></button>
+                </div>
+                <div id="all_music_top_english"></div>
+                <div class="title_name_more_btn">
+                    <h3>Top Hits</h3>
+                    <button class="more_btn" id="4more__btn">more></button>
+                </div>
+                <div id="all_music_top_hits"></div>
+                <div class="title_name_more_btn">
+                    <h3>More for You</h3>
+                    <button class="more_btn" id="5more__btn">more></button>
+                </div>
+                <div id="all_music__moreFU"></div>
+            </div>
+        </div>
+        <div class="more_songs" id="more__songs">
+            <button id="back_btn_more_conainer"> < </button>
+            <div id="more_songs_ele"></div>
+           
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
