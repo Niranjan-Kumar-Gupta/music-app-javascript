@@ -2,5 +2,8 @@
 music web app with  beautiful animation of audio visualizers developed in javascript
 
 
-https://user-images.githubusercontent.com/75079061/146633378-baed3f9d-da0e-4395-ba5a-adcc72df2ede.mp4
+
+
+
+https://user-images.githubusercontent.com/75079061/147533918-a0decf82-7d3b-4faa-a8f1-1aa0df7ee29d.mp4
 
